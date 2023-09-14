@@ -14,18 +14,20 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link id="shLink" href="Prisoners_files/sheet002.htm">
 <link id="shLink" href="Prisoners_files/sheet003.htm">
 <link id="shLink" href="Prisoners_files/sheet004.htm">
+<link id="shLink" href="Prisoners_files/sheet005.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=4;
+ var c_lTabs=5;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Listed";
  c_rgszSh[1] = "Bad Optics";
  c_rgszSh[2] = "Drafts";
  c_rgszSh[3] = "Released";
+ c_rgszSh[4] = "Subscribers";
 
 
 
@@ -318,12 +320,18 @@ function fnSetActiveSheet(iSh)
     <x:Name>Released</x:Name>
     <x:WorksheetSource HRef="Prisoners_files/sheet004.htm"/>
    </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Subscribers</x:Name>
+    <x:WorksheetSource HRef="Prisoners_files/sheet005.htm"/>
+   </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="Prisoners_files/stylesheet.css"/>
-  <x:WindowHeight>3588</x:WindowHeight>
-  <x:WindowWidth>13800</x:WindowWidth>
+  <x:WindowHeight>8796</x:WindowHeight>
+  <x:WindowWidth>23040</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
+  <x:TabRatio>500</x:TabRatio>
+  <x:MaxChange>0.0001</x:MaxChange>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
