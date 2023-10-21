@@ -185,21 +185,15 @@ td
 	{mso-style-parent:style0;
 	color:#333333;
 	text-align:left;
-	vertical-align:middle;
-	white-space:normal;}
-.xl78
-	{mso-style-parent:style0;
-	color:#333333;
-	text-align:left;
 	vertical-align:middle;}
-.xl79
+.xl78
 	{mso-style-parent:style0;
 	color:windowtext;
 	font-family:Calibri, sans-serif;
 	mso-font-charset:0;
 	text-align:left;
 	vertical-align:middle;}
-.xl80
+.xl79
 	{mso-style-parent:style0;
 	color:windowtext;
 	font-weight:700;
@@ -207,3 +201,8 @@ td
 	mso-font-charset:0;
 	text-align:left;
 	vertical-align:middle;}
+.xl80
+	{mso-style-parent:style16;
+	color:#0563C1;
+	text-decoration:underline;
+	text-underline-style:single;}
